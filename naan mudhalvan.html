@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.bg-color{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* position: relative; */
+}
+.whole{
+    padding-left: 20px;
+}
+.header-content{
+    font-size: 30px;
+}
+.para-content{
+    font-size: 18px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.profile-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 75%;
+}
+nav {
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.section-content {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.btn-style-outline{
+    font-weight: bold;
+    
+    padding: 10px;
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.head-link{
+    font-size: 18px;
+}
+
+    </style>
+    <head>
+        <title>Your name - portfolio</title>
+    </head>
+    <body>
+        <div class="bg-color">
+            <div class="top">
+            <img src="https://res.cloudinary.com/dg3zomzad/image/upload/v1692628957/InShot_20230502_172542966_xzcuh7.jpg" class="profile-picture">
+            <div class="whole">
+            <h1 class="header-content">Avinash.TG</h1>
+            <p class="para-content">Full Stack Developer</p>
+        </div>
+            </div>
+        </div>
+        
+        <nav>
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <div id="about">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <p>Hello Everyone! I Am Avinash Passionate computer science student, familiar with web development and programming
+                    languages.</p>
+
+            </div>
+        </div>
+
+        <section id="education">
+            <div class="section-content">
+                <h2> Bsc - Computer Science</h2>
+                <p> Swami Dayananda College Of Arts And Science,Manjakudi</p>
+            </div>
+        </section>
+         
+        <section id="skills">
+            <div class="section-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web development</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <div class="section-content">
+                <h2>Projects</h2> 
+                <ol>
+                <li style="padding-bottom: 10px;"><h1 class="head-link">Responsive Website</h1><p>Responsive Websites are designed to adapt and display properly on different devices and screen sizes...</p><button class="btn-style-outline"><a href="https://avinweb1.ccbp.tech" target="_blank">View Project</a></button></li>
+                <li style="padding-top: 10px;"><h1 class="head-link">Javascript</h1><p>Javascript Website Utilizes the power of the javascript programming language to create dynamic and interactive web pages...</p><button class="btn-style-outline"><a href="https://avinjs7.ccbp.tech" target="_blank">View Project</a></button></li>
+            </ol>
+            </div>
+        </section>
+
+
+        <section id="resume">
+        <center>
+            <div class="section-content">
+                <h2>Resume</h2>
+                <button class="btn-style-outline"><a href="Avinash_2023-08-09-215532.pdf" target="_blank">Download CV</a></button>
+            </div>
+        </center> 
+        </section>
+        <footer>
+            <p>2023 Avinash</p>
+            <p>avinashavin2k04@gmail.com  </p>
+        </footer>
+
+    </body>
+</html>
